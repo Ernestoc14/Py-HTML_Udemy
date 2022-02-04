@@ -34,7 +34,7 @@ rango = range(6)
 diccionario={
   "nombre": "Chancho",
   "raza": "Persa",
-  "edad": "5"
+  "edad": 5
 }
 
 #print(diccionario.get('raza'))
@@ -48,3 +48,26 @@ copia = diccionario.copy()
 diccionario.pop('nombre')
 #print(diccionario , copia)
 
+fluffy = {
+    "nombre": "Fluffy",
+    "edad": 4
+  },
+mamba = {
+    "nombre": "Black Mamba",
+    "edad": 8
+  }
+
+gatitos = {
+  "Fluffy": fluffy,
+  "Mamba": mamba
+}
+
+print(gatitos)
+
+perritos = dict(nombre="Chanchito Feliz", edad = 6, Apodo = "Rocky")
+
+print(perritos)
+
+verdadero = True
+falso = False
+print(verdadero , falso)
