@@ -22,4 +22,29 @@ lista.append(6) #Agrega el elemento 6 a la lista
 
 lista.reverse()
 lista.sort()
-print(lista)
+
+tupla=('hola','ern','somos','tupla')
+listadetupla=list(tupla)
+#listadetupla.append('carro')
+#print(listadetupla)
+
+rango = range(6)
+#print(rango)
+
+diccionario={
+  "nombre": "Chancho",
+  "raza": "Persa",
+  "edad": "5"
+}
+
+#print(diccionario.get('raza'))
+diccionario['nombre'] = 'Yops'
+#print(diccionario)
+
+diccionario['ronronea'] = 'Si'
+#print(diccionario)
+
+copia = diccionario.copy()
+diccionario.pop('nombre')
+#print(diccionario , copia)
+
