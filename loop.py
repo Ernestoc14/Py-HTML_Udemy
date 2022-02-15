@@ -1,7 +1,7 @@
-#i = 0
-#while i < 5:
-#    print(i)
-#    i += 1
+i = 0
+while i < 5:
+    print(i)
+    i += 1
 
 usuarios = ['chancho', 'Felipe', 'Niclas','Ponf']
 #for usuarios in usuarios:
