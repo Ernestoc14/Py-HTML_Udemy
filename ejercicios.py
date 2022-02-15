@@ -1,10 +1,10 @@
-#edad = input('Cuantos anios tienes: ')
-#lista = ['hola','ernesto','lazlo','jean']
+edad = input('Cuantos anios tienes: ')
+lista = ['hola','ernesto','lazlo','jean']
 
-#if lista.count(edad) > 0: #Cuenta cuantas veces encuentra la variable EDAD en lista
-#    print('El dato existe: ', edad)
-#else:
-#    print('El dato no existe: ', edad)  
+if lista.count(edad) > 0: #Cuenta cuantas veces encuentra la variable EDAD en lista
+    print('El dato existe: ', edad)
+else:
+    print('El dato no existe: ', edad)  
 
 uno = input('Ingrese el primer numero ')
 try: 
