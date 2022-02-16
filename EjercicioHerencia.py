@@ -14,5 +14,5 @@ class Perro(Animal):
 
 gato = Gato('Flofy', 'Mauya')
 gato.saludo()
-perro = Perro('Firulai', 'Ladra')
+perro = Perro('Firulais', 'Ladra')
 perro.saludo()
